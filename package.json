@@ -7,11 +7,15 @@
     "commander": "^6.0.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.27"
+    "@types/node": "^14.14.31"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "timeliner": "./timeliner.ts"
+  },
+  "preferGlobal": true,
   "author": "Aaron Kharbanda",
   "license": "ISC"
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env ts-node
+
 const { program } = require('commander')
 
 //setting up the command line options
