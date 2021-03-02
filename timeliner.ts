@@ -3,7 +3,7 @@
 const { program } = require('commander')
 
 //setting up the command line options
-program.version("0.0.6", "-v, --version", "output the current version")
+program.version(require("./package.json").version, "-v, --version", "output the current version")
 
 program
     .requiredOption("-d, --deadline <date>", "(required) deadline of the project")

@@ -1,6 +1,6 @@
 {
   "name": "timeliner",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "an app to divide your project and give it deadlines.",
   "main": "timeliner.js",
   "dependencies": {
