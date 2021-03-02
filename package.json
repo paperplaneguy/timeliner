@@ -4,8 +4,7 @@
   "description": "an app to divide your project and give it deadlines.",
   "main": "timeliner.js",
   "dependencies": {
-    "commander": "^6.0.0",
-    "@types/node": "^14.14.31"
+    "commander": "^6.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,8 @@
   },
   "preferGlobal": true,
   "author": "Aaron Kharbanda",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.31"
+  }
 }
