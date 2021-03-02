@@ -2,22 +2,17 @@
 Timeliner is a utility that makes it easy for you to assign deadlines to a set of tasks.
 
 ## Download
-### pre-requisites
+### installation
 NodeJS is a prerequisite for this project, further an installation of ts-node is required.
 
 ```
 $ npm install -g ts-node
-$ npm i --save-dev @types/node
+$ npm install -g https://github.com/paperplaneguy/timeliner.git
 ```
-
-### installation
-1. copy the git directory to your system
-2. `cd` into the folder
-3. `$ npm install`
 
 ## Usage
 ```
-$ ts-node timeliner.ts -h
+$ timeliner -h
 Usage: timeliner [options]
 
 Options:
