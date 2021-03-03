@@ -15,7 +15,7 @@ Say you have an assignment due on March 15th, 2021, today is March 3rd. The assi
 
 You will type `timeliner -d 03/15/2021 -t 6` and you will get your deadlines as:
 ```
-Start date:	     03/03/2021
+Start date:	 03/03/2021
 Major deadline:	 03/15/2021
 Days remaining:	 11 days
 
