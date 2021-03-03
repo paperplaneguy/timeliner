@@ -43,7 +43,7 @@ Days remaining:   30 days
 Tasks:            7
 Days per task:	  4
 
-Subtasks:	      3
+Subtasks:	  3
 Days per sub:	  1
 
 
