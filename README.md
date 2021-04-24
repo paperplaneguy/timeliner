@@ -6,7 +6,7 @@ NodeJS is a prerequisite for this project, further an installation of ts-node is
 
 ```
 $ npm install -g ts-node
-$ npm install -g https://github.com/paperplaneguy/timeliner.git
+$ npm install -g https://github.com/paperplaneguy/timeliner/tarball/main
 ```
 
 ## Use cases
