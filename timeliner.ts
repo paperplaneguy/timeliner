@@ -34,12 +34,12 @@ if(subtasks)
         error("Invalid subtask count entered.")
 
 
-function toFullDate(date) {
+function toFullDate(date: Date) {
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     return monthNames[date.getMonth()] + " " + date.getDate() + " '" + String(date.getFullYear()).slice(-2)
 }
 
-function toNormalDate(date) {
+function toNormalDate(date: Date) {
     return String(date.getMonth() + 1).padStart(2, '0') + '/' + String(date.getDate()).padStart(2, '0') + '/' + date.getFullYear()
 }
 
@@ -63,7 +63,7 @@ console.log(
     )
 )
 
-function plusDays(_date, days) {
+function plusDays(_date: Date, days: number) {
     var date = new Date(_date.valueOf());
     date.setDate(date.getDate() + days);
     return date;
